@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/snow.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main {
+  min-height: 100vh;
+  background-image: url("./snow.gif"), linear-gradient(to right, red, yellow);
+  background-size: 100% 100%;
+}
+.card {
+  background: #f17a7abd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.card-body {
+  text-align: center;
+}

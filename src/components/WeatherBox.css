@@ -1,0 +1,26 @@
+.weather-box {
+  width: 20%;
+  margin: auto;
+  background: #f1ed7abd;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px gray;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weatherBoxDetails {
+  list-style-type: none;
+}
+
+.weather-box-list {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.days {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

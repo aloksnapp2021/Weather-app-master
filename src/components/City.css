@@ -1,0 +1,59 @@
+.logo {
+  width: 15%;
+}
+.header-title {
+  text-align: center;
+  font-size: 5rem;
+  color: cornsilk;
+}
+.search-wrapper {
+  padding: 0 25%;
+  display: flex;
+}
+.search {
+  height: 43.2px;
+  padding-left: 20px;
+  border-radius: 20px 0 0 20px;
+}
+.fa-search {
+  font-size: 20px;
+  padding: 10px 15px 10px 10px;
+  border-radius: 0 20px 20px 0;
+  background: #bbb;
+}
+.fa-search:hover {
+  background: #aaa;
+}
+
+.GetWeather {
+  display: block;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: blue;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 50%;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 20px;
+}
